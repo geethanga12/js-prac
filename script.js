@@ -1,22 +1,27 @@
-const myPromise = new Promise((resolve, reject) => {
-  const success = true; // Simulate success or failure)
-  if (success) {
-    resolve("Promise resolved successfully!");
-  } else {
-    reject("Promise rejected.");
-  }
-});
 
-myPromise
-  .then((message) => {
-    console.log(message);
-  })
-  .catch((error) => {
-    console.error(error);
-  })
-  .finally(() => {
-    console.log("Promise handling completed.");
-  });
+
+
+
+
+// const myPromise = new Promise((resolve, reject) => {
+//   const success = true; // Simulate success or failure)
+//   if (success) {
+//     resolve("Promise resolved successfully!");
+//   } else {
+//     reject("Promise rejected.");
+//   }
+// });
+
+// myPromise
+//   .then((message) => {
+//     console.log(message);
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   })
+//   .finally(() => {
+//     console.log("Promise handling completed.");
+//   });
 
 // function checkNumber(num) {
 //   if (num % 2 === 0) {
